@@ -11,6 +11,6 @@ def basic(config, phone_number):
         secret=API_SECRET
     )
 
-    response = client.get_number_insight(number=phone_number)
+    response = client.get_basic_number_insight(number=phone_number)
 
     return response
